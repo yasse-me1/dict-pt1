@@ -1,19 +1,19 @@
 #1
-# dict1 = {
-#     "1":"ona-tili",
-#     "2":"matematika",
-#     "3":"ingliz-tili"
-#     }
-# print(dict1)
+dict1 = {
+    "1":"ona-tili",
+    "2":"matematika",
+    "3":"ingliz-tili"
+    }
+print(dict1)
 #2
-# dict1 = {
-# "1":"ona-tili",
-# "2":"matematika",
-# "3":"ingliz-tili"
-# }
-# key = input("Kalitni kiriting: ")
-# qiymat = dict1.get(key)
-# print(qiymat)
+dict1 = {
+"1":"ona-tili",
+"2":"matematika",
+"3":"ingliz-tili"
+}
+key = input("Kalitni kiriting: ")
+qiymat = dict1.get(key)
+print(qiymat)
 #3
 dict1 = {
 "1":"ona-tili",
@@ -40,6 +40,7 @@ dict2 = {
 }
 for i in dict2.keys():
     print(dict2[i])
+
 
 
 
